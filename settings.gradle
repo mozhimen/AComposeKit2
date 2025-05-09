@@ -52,3 +52,4 @@ include ':app'
 
 include ':rebugger'
 include ':accompanist:drawablepainter'
+include ':grid'

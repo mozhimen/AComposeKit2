@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,32 +9,32 @@
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Google" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Google/material" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetbrains" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetbrains/kotlin_stdlib" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetbrains/kotlinx_coroutines" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack/annotation" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack/core" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack/core_splashscreen" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack/databinding" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack/emoji2" />
-            <option value="$PROJECT_DIR$/../../GitHub/ALibKit_Jetpack/preference" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/accompanist" />
             <option value="$PROJECT_DIR$/accompanist/drawablepainter" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/grid" />
             <option value="$PROJECT_DIR$/rebugger" />
-            <option value="$PROJECT_DIR$/../../GitHub/ASwiftKit" />
-            <option value="$PROJECT_DIR$/../../GitHub/ASwiftKit/basick" />
-            <option value="$PROJECT_DIR$/../../GitHub/ASwiftKit/composek" />
-            <option value="$PROJECT_DIR$/../../GitHub/KUtilKit" />
-            <option value="$PROJECT_DIR$/../../GitHub/KUtilKit/android" />
-            <option value="$PROJECT_DIR$/../../GitHub/KUtilKit/kotlin" />
+            <option value="$PROJECT_DIR$/../ALibKit_Google" />
+            <option value="$PROJECT_DIR$/../ALibKit_Google/material" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetbrains" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetbrains/kotlin_stdlib" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetbrains/kotlinx_coroutines" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/annotation" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/core" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/core_splashscreen" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/databinding" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/emoji2" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/preference" />
+            <option value="$PROJECT_DIR$/../ASwiftKit" />
+            <option value="$PROJECT_DIR$/../ASwiftKit/basick" />
+            <option value="$PROJECT_DIR$/../ASwiftKit/composek" />
+            <option value="$PROJECT_DIR$/../KUtilKit" />
+            <option value="$PROJECT_DIR$/../KUtilKit/android" />
+            <option value="$PROJECT_DIR$/../KUtilKit/kotlin" />
           </set>
         </option>
-        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
