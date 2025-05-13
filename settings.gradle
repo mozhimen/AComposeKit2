@@ -32,6 +32,8 @@ include ':ALibKit_Jetpack:databinding'
 include ':ALibKit_Jetpack:core'
 include ':ALibKit_Jetpack:annotation'
 include ':ALibKit_Jetpack:emoji2'
+include ':ALibKit_Jetpack:lifecycle_viewmodel_compose'
+include ':ALibKit_Jetpack:lifecycle_runtime_compose'
 //ALibKit_Jetbrains
 include ':ALibKit_Jetbrains'
 project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
@@ -47,9 +49,20 @@ include ':ASwiftKit'
 project(':ASwiftKit').projectDir = new File("D:\\Workspace\\GitHub\\ASwiftKit")
 include ':ASwiftKit:basick'
 include ':ASwiftKit:composek'
+include ':ASwiftKit:uik:compose'
+//ASerialKit
+include ':ASerialKit'
+project(':ASerialKit').projectDir = new File("D:\\Workspace\\GitHub\\ASerialKit")
+include ':ASerialKit:html:ph_css'
+//AImageKit
+include ':AImageKit'
+project(':AImageKit').projectDir = new File("D:\\Workspace\\GitHub\\AImageKit")
+include ':AImageKit:coil2:compose'
+include ':AImageKit:glide'
 //
 include ':app'
-
 include ':rebugger'
 include ':accompanist:drawablepainter'
 include ':grid'
+include ':html'
+include ':html:test'

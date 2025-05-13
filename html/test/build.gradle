@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.mozhimen.composek2.html.test'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.mozhimen.composek2.html.test"
+        minSdk 21
+        targetSdk 35
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures.compose = true
+    composeOptions.kotlinCompilerExtensionVersion = "1.5.15"
+    packagingOptions {
+        exclude 'META-INF/**'
+        exclude 'changelog.xml'
+    }
+}
+
+dependencies {
+    implementation project(':ASwiftKit:composek')
+    implementation project(':ASwiftKit:uik:compose')
+    implementation project(':html')
+    implementation project(':ASerialKit:html:ph_css')
+    implementation project(':AImageKit:coil2:compose')
+    implementation project(':AImageKit:glide')
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+}
