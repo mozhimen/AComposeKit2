@@ -10,8 +10,7 @@ android {
     defaultConfig {
         applicationId "com.mozhimen.composek2.html.test"
         minSdk 21
-        targetSdk 35
-        targetSdk 35
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
