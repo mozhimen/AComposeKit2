@@ -62,7 +62,7 @@ include ':AImageKit:glide'
 //
 include ':app'
 include ':rebugger'
-include ':accompanist:drawablepainter'
+include ':accompanist-drawablepainter'
 include ':grid'
 include ':html'
 include ':html:test'

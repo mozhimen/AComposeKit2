@@ -4,7 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../AImageKit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ALibKit_Google" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../ALibKit_Jetbrains" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ALibKit_Jetpack" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ASerialKit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ASwiftKit" vcs="Git" />
